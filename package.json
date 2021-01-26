@@ -1,8 +1,9 @@
 {
   "name": "lazyimage",
   "version": "0.1.0",
+  "description": "lazy and blurhash image",
   "main": "dist/lazyimage.common.js",
-  "author": "<ddembrs@gmail.com>",
+  "author": "EMBRS <ddembrs@gmail.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build  --target lib --name lazyimage ./src/components/index.js",
@@ -14,10 +15,12 @@
     "vue": "^2.6.11"
   },
   "files": [
-    "dist/*",
-    "src/*",
-    "public/*"
+    "dist/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Embrs/lazyimage.git"
+  },
   "keywords": [
     "lazy"
   ],
