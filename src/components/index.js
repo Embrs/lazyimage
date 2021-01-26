@@ -1,6 +1,10 @@
 import LazyImage from './LazyImage.vue';
 
-LazyImage.install = function (Vue) {
-  Vue.component('lazyimage', LazyImage)
+const components = [LazyImage]
+
+const install = function (Vue) {
+  components.forEach(component => {
+    Vue.component(component.name, component)
+  })
 }
-export default LazyImage
+export default install

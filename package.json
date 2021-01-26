@@ -1,12 +1,12 @@
 {
-  "name": "lazyimage",
-  "version": "0.1.0",
+  "name": "tyr-image",
+  "version": "0.1.2",
   "description": "lazy and blurhash image",
-  "main": "dist/lazyimage.common.js",
+  "main": "dist/tyr-image.common.js",
   "author": "EMBRS <ddembrs@gmail.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build  --target lib --name lazyimage ./src/components/index.js",
+    "build": "vue-cli-service build  --target lib --name tyr-image ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -22,7 +22,8 @@
     "url": "git+https://github.com/Embrs/lazyimage.git"
   },
   "keywords": [
-    "lazy"
+    "lazy image",
+    "blurhash image"
   ],
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

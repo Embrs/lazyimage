@@ -1,4 +1,4 @@
-# lazyimage
+# tyr-image
 
 ## Project setup
 ```
