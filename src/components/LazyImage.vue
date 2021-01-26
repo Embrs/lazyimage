@@ -194,34 +194,34 @@ export default {
 
 <style lang="scss" scoped>
 #LazyImage {
-  position: relative;
+  position: relative !important;
   overflow: hidden;
   .group {
-    position: absolute;
+    position: absolute !important;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     .loading {
-      position: relative;
+      position: relative !important;
       object-fit: contain !important;
     }
     .img {
-      position: absolute;
+      position: absolute !important;
       object-fit: cover;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
-      width: 100%;
-      height: 100%;
+      width: 100% !important;
+      height: 100% !important;
     }
     .err-img {
       box-sizing: border-box;
-      width: 100%;
-      height: 100%;
+      width: 100% !important;
+      height: 100% !important;
       object-fit: contain !important;
-      padding: 20%;
+      padding: 20% !important;
     }
   }
 }

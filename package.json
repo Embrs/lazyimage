@@ -1,6 +1,6 @@
 {
   "name": "tyr-image",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "lazy and blurhash image",
   "main": "dist/tyr-image.common.js",
   "author": "EMBRS <ddembrs@gmail.com>",
